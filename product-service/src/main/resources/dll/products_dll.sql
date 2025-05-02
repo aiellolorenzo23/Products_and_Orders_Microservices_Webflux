@@ -1,0 +1,6 @@
+CREATE TABLE ITEMS (
+    id BINARY(16) NOT NULL PRIMARY KEY,
+    name VARCHAR(255),
+    price DOUBLE NOT NULL,
+    quantity INT NOT NULL
+);
